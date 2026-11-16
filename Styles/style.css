@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-image: url(/Assets/angel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 207vh;
+    height: 105vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 73px;
+    font-weight: 200;
+    
+}
+.H-header{
+    margin: 0 10vh;
+    
+}
+.centro{
+    background-color: aliceblue;
+    width: 100%;
+    height:205vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.articulos{
+    display: flex;
+    margin-top: 20vh;
+}
+.articulo-img{
+   margin: 0 0 0 20vh;
+}
+.articulo{
+    width:400px;
+    align-content: center;
+}
+img{
+    height: 70vh;
+}
+.articulo-img-2{
+    margin: 0 20vh 0 0;
+}
+button{
+    background-color: rgb(255, 73, 93);
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.caja2{
+    background-image: url(/Assets/raptis.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between; 
+    width: 207vh;
+    height: 105vh;
+    display: flex;
+}
+.caja3{
+    width: 100vh;
+    height: 105vh;
+}
+.caja4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    height: 105vh;
+    justify-content: center;
+}
+h1{
+    margin-top: 0;
+}
+footer{
+    display: flex;
+    width: 207vh;
+    height: 70vh;
+    background-color:  rgb(255, 73, 93);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.columnas{
+    margin: 0 20vh ;
+}
+.p-columnas{
+    margin-bottom: 8vh;
+}
