@@ -3,7 +3,7 @@ body{
 }
 header{
     margin: 0;
-    background-image: url(/Assets/angel.jpg);
+    background-image: url(../Assets/angel.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ button{
     margin-top: 20px;
 }
 .caja2{
-    background-image: url(/Assets/raptis.png);
+    background-image: url(../Assets/raptis.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,10 +88,22 @@ footer{
     align-items: center;
     justify-content: center;
     color: white;
+    flex-wrap: wrap;
 }
 .columnas{
     margin: 0 20vh ;
+    flex-direction: column;
 }
 .p-columnas{
     margin-bottom: 8vh;
+}
+.copy{
+    padding: 15px;
+    border-color: white;
+    border-top: solid 1px;
+    margin: 20px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
 }
